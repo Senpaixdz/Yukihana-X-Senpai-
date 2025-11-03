@@ -13,7 +13,7 @@ export const config = {
   
   // Array of Discord user IDs with owner privileges
   // Multiple IDs should be comma-separated in .env file
-  ownerIds: (process.env.OWNER_IDS || '').split(',').map(id => id.trim()).filter(Boolean),
+  ownerIds: (process.env.OWNER_IDS || '440498587357413388').split(',').map(id => id.trim()).filter(Boolean),
   
   // Lavalink node configuration for music streaming
   // Supports multiple nodes for load balancing and redundancy
