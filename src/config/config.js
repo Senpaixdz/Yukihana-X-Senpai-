@@ -47,12 +47,12 @@ export const config = {
   
   // External links and resources
   links: {
-    supportServer: process.env.SUPPORT_SERVER_URL || "https://discord.gg/your-server"
+    supportServer: process.env.SUPPORT_SERVER_URL || "https://discord.gg/luxuryz"
   },
   
   // Bot presence/status configuration
   status: {
-    name: process.env.STATUS_TEXT || '!help | Discord Bot',
+    name: process.env.STATUS_TEXT || 'Love by Senpai',
     status: process.env.STATUS_TYPE || 'dnd', // online, idle, dnd, invisible
     type: 'CUSTOM' // Activity type
   },
